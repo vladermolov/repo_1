@@ -1,0 +1,85 @@
+/* p {
+    color:rgb(0, 0, 0);
+    background-color:rgb(154, 137, 177);
+    background-color: #87CEFA;
+}*/
+body {
+    background-image: url("file:///Users/vladislavermolov/Desktop/Captura%20de%20pantalla%202021-02-05%20a%20las%2022.59.43.png");
+    background-color: #87CEFA;
+    background-attachment: scroll; /*inherit*/
+}
+p.small {
+    font-variant: small-caps; color: green; background-color: white;
+    text-decoration: blink;
+}
+h2.center {
+    text-align: center;
+}
+/* table */
+td.top {
+    vertical-align: top;
+}
+td.middle {
+    vertical-align: middle; background-color: violet;
+}
+td.bottom {
+    vertical-align: bottom;
+}
+span.baseline {
+    vertical-align: baseline;
+}
+span.sub {
+    vertical-align: sub;
+}
+span.super {
+    vertical-align: super;
+}
+span.pixel {
+    vertical-align: -15px;
+}
+.main {
+    height: 150px; width: 300px;
+    background-color: LightSkyBlue;
+    display: inline-table;
+}
+.paragraph {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+h1 {
+    color: blue;
+    font-size: 30pt;
+    text-shadow: 10px 10px 5px red;
+}
+h2 {
+    font-size: 20pt;   
+    text-shadow: rgba(0,0,255,1) -1px -2px 0.5em; 
+}
+p.first {
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+}
+p.second {
+    padding: 10px;    
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FF6600;
+} 
+p.third {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 153, 0);
+}
+p.none {border-style: none;}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.hidden {border-style: hidden;}
