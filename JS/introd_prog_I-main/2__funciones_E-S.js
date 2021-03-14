@@ -12,12 +12,13 @@ console.log("Hola mundo!");
 // CONCATENACIÓN: 
 // def: Se utiliza cuando queremos imprimir diferentes tipos de de datos juntos, ó contenidos de variables. En JS se utiliza el símbolo '+'
 // Ejemplo: 
-var dia = 4;
-var mes = "Enero";
+var dia = 14;
+var mes = "Marzo";
 var any = 2021;
 
 console.log("Hoy es 4 de Enero de 2021");
 console.log("Hoy es " + dia + " de " + mes + " de " + any);
+console.log("Today is " + dia + " de " + mes + " de " + any);
 
 
 
